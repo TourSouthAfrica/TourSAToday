@@ -413,7 +413,7 @@
     left: 30px;
 }
 
-.services__card button {
+.servicecardbtn {
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -425,6 +425,11 @@
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.servicecardbtn a {
+text-decoration: none;
+color: #fff;
 }
 
 .services__card2 p {
@@ -433,7 +438,7 @@
     left: 30px;
 }
 
-.services__card2 button {
+.servicecard2btn {
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -445,6 +450,11 @@
     left: 30px;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.servicecard2btn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .services__card:hover {
