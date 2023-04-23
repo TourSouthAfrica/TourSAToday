@@ -33,7 +33,7 @@
     background-color: #fff;
     background-image: url(download.jpg);
     background-repeat: no-repeat;
-    background-size: 375px 82px;
+    background-size: 250px 81px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -45,9 +45,6 @@
     font-size: 3rem;
 }
 
-.fa-gem {
-    margin-right: 0.5rem;
-}
 
 .navbar__menu{
     display: flex;
@@ -226,7 +223,7 @@
 .main__content h1 {
     font-size: 4rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #fff 0%, #141414 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
