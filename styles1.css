@@ -61,13 +61,16 @@
 
 .navbar__links{
     color: #141414;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: 0.5px;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0 10px;
     height: 100%;
 }
+
 
 .navbar__btn{
     display: flex;
@@ -221,14 +224,13 @@
 }
 
 .main__content h1 {
-    font-size: 4rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent;
+font-size: var(--big-font);
+line-height: 1.2;
+color: var(--bg-color);
+font-family: 'Paytone One', sans-serif;
+letter-spacing: 4px;
+margin-bottom: 20px;
+font-size: 4rem;
 }
 
 .main__content h2 {
